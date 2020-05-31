@@ -1,0 +1,26 @@
+{
+  "name": "mailgun-node",
+  "version": "0.1.0",
+  "description": "mailgun-node",
+  "main": "dist/mailgun-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatzchang/mailgun-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatzchang/mailgun-node/issues"
+  },
+  "homepage": "https://github.com/fatzchang/mailgun-node#readme",
+  "devDependencies": {
+    "rollup": "^2.12.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.3"
+  }
+}
